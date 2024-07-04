@@ -9,14 +9,14 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'FLASH-MD-WA-BOT;;;=>',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "France King",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "254742063632", 
+    OWNER_NAME: process.env.OWNER_NAME || "⌷ ׄ⃝🎀 ᰷ ✧ ࣪  𝐑̸̷𝐔̶𝐁̷͠𝐘𝐉𝐀̶𝐍𝚵̸̷  𓂃𔘓",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "917439317360", 
              
     AUTO_VIEW_STATUS: process.env.AUTO_VIEW_STATUS || "on",
 AUTOREAD_MESSAGES: process.env.AUTO_READ_MESSAGES || "off",
 CHATBOT: process.env.CHAT_BOT || "off",
     AUTO_SAVE_STATUS: process.env.AUTO_SAVE_STATUS || 'off',
-    BOT : process.env.BOT_NAME || 'FLASH-MD',
+    BOT : process.env.BOT_NAME || '⌷ ׄ⃝🎀 ᰷ ✧ ࣪  𝐑̸̷𝐔̶𝐁̷͠𝐘𝐉𝐀̶𝐍𝚵̸̷  𓂃𔘓',
     OPENAI_API_KEY : process.env.OPENAI_API_KEY || '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',
     URL : process.env.BOT_MENU_LINKS || 'https://static.animecorner.me/2023/08/op2.jpg',
     MODE: process.env.MODE || "private",
